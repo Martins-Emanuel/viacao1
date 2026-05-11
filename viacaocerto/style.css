@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.4);
+}
+
+.topo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.topo h1 {
+    color: #0f172a;
+    margin-bottom: 5px;
+}
+
+.topo p {
+    color: gray;
+    font-size: 14px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.grupo input {
+    padding: 12px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.grupo input:focus {
+    border-color: #2563eb;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
